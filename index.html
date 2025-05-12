@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabya Ghosh - Robotics Innovator & Designer</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Navigation Bar -->
+    <header id="main-nav">
+        <div class="container">
+            <a href="#hero" class="logo">K<span>G</span></a>
+            <nav>
+                <ul class="menu" id="menu-list">
+                    <li><a href="#about" data-text="About">About</a></li>
+                    <li><a href="#projects" data-text="Projects">Projects</a></li>
+                    <li><a href="#skills" data-text="Skills">Skills</a></li>
+                    <li><a href="#achievements" data-text="Achievements">Achievements</a></li>
+                    <li><a href="#contact" data-text="Contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger-menu" aria-label="Toggle menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- 2. Hero Section -->
+        <section id="hero">
+            <div class="hero-shape shape-1"></div>
+            <div class="hero-shape shape-2"></div>
+            <div class="hero-shape shape-3"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="profile-image-wrapper animate-on-scroll zoom-in">
+                        <!-- IMPORTANT: Replace 'kabya.jpeg' with the actual path to your profile photo -->
+                        <img src="kabya.jpeg" alt="Kabya Ghosh Profile Photo" class="profile-photo">
+                        <div class="speech-bubble" id="welcome-bubble">
+                            <span class="bubble-text">Welcome! 👋</span>
+                        </div>
+                    </div>
+
+                    <h1 class="hero-title animate-on-scroll">Hello, I’m Kabya Ghosh</h1>
+                    <p class="subtitle animate-on-scroll" style="transition-delay: 0.2s;">Robotics Innovator</p>
+                    <p class="bio animate-on-scroll" style="transition-delay: 0.3s;">An 18-year-old tech enthusiast from Bangladesh, passionate about merging design with robotics to create innovative solutions. Eager to learn and contribute to the world of technology.</p>
+                    <a href="#projects" class="btn hero-cta-btn animate-on-scroll" style="transition-delay: 0.4s;">View My Work</a>
+                    <ul class="social-icons animate-on-scroll" style="transition-delay: 0.5s;">
+                         <!-- IMPORTANT: Replace '#' with your actual social media profile URLs -->
+                        <li><a href="https://m.facebook.com/KabyaGhosh.Official/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i><span class="social-icon-text">Facebook</span></a></li>
+                        <li><a href="https://github.com/TechByKabya" target="_blank" title="GitHub"><i class="fab fa-github"></i><span class="social-icon-text">GitHub</span></a></li>
+                        <li><a href="https://x.com/TheDevKabya/ " target="_blank" title="Twitter"><i class="fab fa-twitter"></i><span class="social-icon-text">Twitter</span></a></li>
+                        <li><a href="https://www.youtube.com/@KraftGenesis" target="_blank" title="YouTube (KraftGenesis)"><i class="fab fa-youtube"></i><span class="social-icon-text">YouTube</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#about" class="scroll-down-indicator" aria-label="Scroll down to about section">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </section>
+
+        <!-- 3. About Section -->
+        <section id="about">
+            <div class="container">
+                <h2 class="about-title animate-on-scroll">About Me</h2>
+                <div class="about-content-wrapper">
+                    <div class="about-card about-text-card animate-on-scroll fade-in-left">
+                        <div class="card-icon-area"><i class="fas fa-user-astronaut"></i></div>
+                        <h3>My Journey</h3>
+                        <p> Ever since I was young, I've been fascinated by how things work <i class="fas fa-cogs subtle-icon"></i>, especially electronics and robots. This curiosity led me down a path of self-learning, diving into programming, electronics design, and 3D modeling. Based in Satkhira, Bangladesh, I spend my time building projects like Mission Bot <i class="fas fa-robot subtle-icon"></i>, aiming to solve real-world problems with technology. </p>
+                        <p> My journey includes exploring UI/UX design <i class="fas fa-palette subtle-icon"></i> to make technology more intuitive. I'm preparing to study Computer Science and Engineering at Daffodil International University, excited to deepen my knowledge in robotics, AI, and cybersecurity. My ultimate goal is to establish an R&D lab focusing on innovative tech solutions <i class="fas fa-lightbulb subtle-icon"></i>. </p>
+                    </div>
+                    <div class="about-card about-hobbies-card animate-on-scroll fade-in-right">
+                         <div class="card-icon-area"><i class="fas fa-heart"></i></div>
+                        <h3>Interests & Hobbies</h3>
+                        <div class="hobbies-grid">
+                            <div class="hobby-item animate-on-scroll zoom-in" style="transition-delay: 0.1s;"> <i class="fas fa-robot hobby-icon"></i> <p>Robotics</p> </div>
+                            <div class="hobby-item animate-on-scroll zoom-in" style="transition-delay: 0.15s;"> <i class="fas fa-code hobby-icon"></i> <p>Coding</p> </div>
+                            <div class="hobby-item animate-on-scroll zoom-in" style="transition-delay: 0.2s;"> <i class="fas fa-fish hobby-icon"></i> <p>Aquarium</p> </div>
+                            <div class="hobby-item animate-on-scroll zoom-in" style="transition-delay: 0.25s;"> <i class="fas fa-dove hobby-icon"></i> <p>Bird Care</p> </div>
+                            <div class="hobby-item animate-on-scroll zoom-in" style="transition-delay: 0.3s;"> <i class="fas fa-bicycle hobby-icon"></i> <p>Biking</p> </div>
+                            <div class="hobby-item animate-on-scroll zoom-in" style="transition-delay: 0.35s;"> <i class="fas fa-mobile-alt hobby-icon"></i> <p>Tech Gadgets</p> </div>
+                            <div class="hobby-item animate-on-scroll zoom-in" style="transition-delay: 0.4s;"> <i class="fas fa-tools hobby-icon"></i> <p>DIY Projects</p> </div>
+                            <div class="hobby-item animate-on-scroll zoom-in" style="transition-delay: 0.45s;"> <i class="fas fa-paint-brush hobby-icon"></i> <p>Design</p> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <h2 class="animate-on-scroll">My Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project Cards -->
+                    <div class="project-card animate-on-scroll" data-modal-target="modal-mission-bot" style="transition-delay: 0.1s;">
+                        <div class="project-image" style="background-image: url('mission_bot.jpeg');">Mission Bot</div>
+                        <div class="project-info"> <h3>Mission Bot</h3> <p>An autonomous robot designed for specific tasks. Featured in press.</p> </div>
+                    </div>
+                    <div class="project-card animate-on-scroll" data-modal-target="modal-flood-pump" style="transition-delay: 0.2s;">
+                        <div class="project-image" style="background-image: url('prize.jpeg');"></div>
+                        <div class="project-info"> <h3>National Award</h3> <p>Received a national award from the Education Minister.</p> </div>
+                    </div>
+                    <div class="project-card animate-on-scroll" data-modal-target="modal-smart-irrigation" style="transition-delay: 0.3s;">
+                         <div class="project-image" style="background-image: url('irrigtion.png');"></div>
+                        <div class="project-info"> <h3>Smart Irrigation System</h3> <p>Conserves water by automating irrigation based on soil moisture levels.</p> </div>
+                    </div>
+                    <div class="project-card animate-on-scroll" data-modal-target="modal-custom-ai" style="transition-delay: 0.4s;">
+                         <div class="project-image" style="background-image: url('kgs1.jpeg');"></div>
+                        <div class="project-info"> <h3>KGs1 Beta AI</h3> <p>Development of a custom AI assistant or framework.</p> </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Skills Section -->
+        <section id="skills">
+            <div class="container">
+                <h2 class="animate-on-scroll">Skills & Expertise</h2>
+                <div class="skills-grid">
+                    <!-- Skill Cards -->
+                    <div class="skill-card animate-on-scroll zoom-in" style="transition-delay: 0.1s;"> <div class="skill-card-inner"> <div class="skill-card-front"> <i class="fab fa-python skill-icon"></i> <span class="skill-name">Python</span> </div> <div class="skill-card-back"> Used in Robotics (ROS), AI (OpenCV), scripting. <strong>Versatile & Powerful</strong> </div> </div> </div>
+                    <div class="skill-card animate-on-scroll zoom-in" style="transition-delay: 0.15s;"> <div class="skill-card-inner"> <div class="skill-card-front"> <i class="fas fa-code skill-icon" style="color: #00599C;"></i> <span class="skill-name">C++</span> </div> <div class="skill-card-back"> Arduino, performance apps, competitive programming. <strong>Fast & Efficient</strong> </div> </div> </div>
+                    <div class="skill-card animate-on-scroll zoom-in" style="transition-delay: 0.2s;"> <div class="skill-card-inner"> <div class="skill-card-front"> <i class="fab fa-html5 skill-icon" style="color: #E34F26;"></i> <span class="skill-name">HTML5</span> </div> <div class="skill-card-back"> Semantic structure for web content. <strong>Web Structure</strong> </div> </div> </div>
+                    <div class="skill-card animate-on-scroll zoom-in" style="transition-delay: 0.25s;"> <div class="skill-card-inner"> <div class="skill-card-front"> <i class="fab fa-css3-alt skill-icon" style="color: #1572B6;"></i> <span class="skill-name">CSS3</span> </div> <div class="skill-card-back"> Styling web pages, layouts, animations. <strong>Visual Styling</strong> </div> </div> </div>
+                    <div class="skill-card animate-on-scroll zoom-in" style="transition-delay: 0.3s;"> <div class="skill-card-inner"> <div class="skill-card-front"> <i class="fab fa-js-square skill-icon" style="color: #F7DF1E;"></i> <span class="skill-name">JavaScript</span> </div> <div class="skill-card-back"> Interactivity, front-end logic, APIs. <strong>Web Interactivity</strong> </div> </div> </div>
+                    <div class="skill-card animate-on-scroll zoom-in" style="transition-delay: 0.35s;"> <div class="skill-card-inner"> <div class="skill-card-front"> <i class="fas fa-cubes skill-icon" style="color: #EF5350;"></i> <span class="skill-name">Fusion 360</span> </div> <div class="skill-card-back"> 3D modeling for parts, enclosures, 3D printing. <strong>CAD Modeling</strong> </div> </div> </div>
+                    <div class="skill-card animate-on-scroll zoom-in" style="transition-delay: 0.4s;"> <div class="skill-card-inner"> <div class="skill-card-front"> <i class="fas fa-eye skill-icon" style="color: #5C3EEA;"></i> <span class="skill-name">OpenCV</span> </div> <div class="skill-card-back"> Computer vision for robotics and AI projects. <strong>Image Processing</strong> </div> </div> </div>
+                    <div class="skill-card animate-on-scroll zoom-in" style="transition-delay: 0.45s;"> <div class="skill-card-inner"> <div class="skill-card-front"> <i class="fas fa-microchip skill-icon" style="color: #00979D;"></i> <span class="skill-name">Arduino</span> </div> <div class="skill-card-back"> Prototyping, sensor/actuator control. <strong>Hardware Control</strong> </div> </div> </div>
+                    <div class="skill-card animate-on-scroll zoom-in" style="transition-delay: 0.5s;"> <div class="skill-card-inner"> <div class="skill-card-front"> <i class="fas fa-robot skill-icon"></i> <span class="skill-name">ROS</span> </div> <div class="skill-card-back"> Robot Operating System for complex robots. <strong>Robotics Framework</strong> </div> </div> </div>
+                     <div class="skill-card animate-on-scroll zoom-in" style="transition-delay: 0.55s;"> <div class="skill-card-inner"> <div class="skill-card-front"> <i class="fas fa-drafting-compass skill-icon" style="color: #6200EA;"></i> <span class="skill-name">UI/UX Design</span> </div> <div class="skill-card-back"> User-centered design principles, interfaces. <strong>User Experience</strong> </div> </div> </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Achievements Section -->
+        <section id="achievements">
+            <div class="container">
+                <h2 class="animate-on-scroll">Achievements & Recognition</h2>
+                <div class="timeline">
+                    <!-- Timeline Items -->
+                    <div class="timeline-item timeline-left animate-on-scroll fade-in-right">
+                        <div class="timeline-content clickable" data-modal-target="modal-award"> <h3>National Award Winner</h3> <span class="date">2023</span> <p>Received a national award from the Education Minister with PM present for innovation.</p> </div>
+                    </div>
+                    <div class="timeline-item timeline-right animate-on-scroll fade-in-left" style="transition-delay: 0.2s;">
+                         <div class="timeline-content clickable" data-modal-target="modal-mission-press"> <h3>Mission Bot Press Feature</h3> <span class="date">2023/2024</span> <p>The 'Mission Bot' project gained recognition and was featured in national/local press.</p> </div>
+                    </div>
+                    <div class="timeline-item timeline-left animate-on-scroll fade-in-right" style="transition-delay: 0.3s;">
+                        <div class="timeline-content"> <h3>YouTube Channel Growth</h3> <span class="date">Ongoing</span> <p>Growing the KraftGenesis YouTube channel, sharing tech projects and knowledge.</p> <a href="https://www.youtube.com/@KraftGenesis" target="_blank" style="font-weight:bold; display: inline-block; margin-top: 8px; font-size: 0.9rem;">Visit Channel <i class="fas fa-external-link-alt" style="font-size: 0.8em; margin-left: 4px;"></i></a> </div>
+                    </div>
+                     <div class="timeline-item timeline-right animate-on-scroll fade-in-left" style="transition-delay: 0.4s;">
+                         <div class="timeline-content"> <h3>Consistent Project Development</h3> <span class="date">Ongoing</span> <p>Successfully developed multiple projects like the Flood Pump and Smart Irrigation System.</p> </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Contact Section (No Form) -->
+        <section id="contact">
+            <div class="container">
+                <h2 class="animate-on-scroll">Get In Touch</h2>
+                <p class="section-intro animate-on-scroll" style="transition-delay: 0.1s;">
+                    Interested in collaborating, have a question, or just want to say hi?
+                    Feel free to reach out through any of the channels below!
+                </p>
+                <div class="contact-details">
+                    <!-- Contact Items -->
+                    <div class="contact-item animate-on-scroll fade-in-up" style="transition-delay: 0.2s;">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:kabyaghosh4@gmail.com">kabya.connect24@gmail.com</a>
+                    </div>
+                    <div class="contact-item animate-on-scroll fade-in-up" style="transition-delay: 0.3s;">
+                        <i class="fab fa-whatsapp"></i>
+                        <a href="https://wa.me/8801950440296" target="_blank" rel="noopener noreferrer">+880 1950 440296</a>
+                    </div>
+                     <div class="contact-item animate-on-scroll fade-in-up" style="transition-delay: 0.4s;">
+                        <i class="fab fa-facebook-f"></i>
+                        <a href="https://www.facebook.com/KabyaGhosh.Official" target="_blank" rel="noopener noreferrer">KabyaGhosh.Official</a>
+                    </div>
+                     <div class="contact-item animate-on-scroll fade-in-up" style="transition-delay: 0.5s;">
+                        <i class="fab fa-researchgate"></i>
+                        <!-- Add real LinkedIn URL -->
+                        <a href="#" target="_blank" rel="noopener noreferrer">Kabya Ghosh</a>
+                     </div>
+                     <div class="contact-item animate-on-scroll fade-in-up" style="transition-delay: 0.6s;">
+                         <i class="fab fa-github"></i>
+                         <!-- Add real GitHub URL -->
+                         <a href=" https://github.com/TechByKabya" target="_blank" rel="noopener noreferrer">Your GitHub Profile</a>
+                     </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© <span id="current-year">2024</span> Kabya Ghosh. All rights reserved.</p>
+            <p>Designed & Built with Passion <i class="fas fa-heart" style="color: var(--primary-color);"></i></p>
+        </div>
+    </footer>
+
+    <!-- Project Modals (Hidden by default via CSS) -->
+    <div id="modal-mission-bot" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" data-modal-close>×</span>
+            <div class="modal-image" data-placeholder-text="Mission Bot Image Placeholder"></div>
+            <h3>Mission Bot</h3>
+            <p>Detailed description of Mission Bot. An autonomous robot designed for specific tasks like exploration or delivery in challenging environments. Developed using Arduino/Raspberry Pi, sensors, and custom-built chassis.</p>
+            <p>It received media attention for its innovative approach to [mention specific problem it addressed, e.g., environmental monitoring].</p>
+            <p class="tools-used"><strong>Tools Used:</strong> C++, Python, Arduino IDE, Fusion 360, Various Sensors</p>
+        </div>
+    </div>
+
+    <div id="modal-flood-pump" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" data-modal-close>×</span>
+            <div class="modal-image" data-placeholder-text="Flood Pump Image Placeholder"></div>
+            <h3>Automated Flood Pump</h3>
+            <p>This project addresses the issue of localized flooding by automatically activating a pump system when water levels rise beyond a certain threshold. Uses water level sensors and microcontroller logic.</p>
+            <p class="tools-used"><strong>Tools Used:</strong> Arduino (C++), Water Level Sensors, Relays, Pump Mechanism</p>
+        </div>
+    </div>
+
+    <div id="modal-smart-irrigation" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" data-modal-close>×</span>
+            <div class="modal-image" data-placeholder-text="Smart Irrigation Image Placeholder"></div>
+            <h3>Smart Irrigation System</h3>
+            <p>An IoT-based system designed to optimize water usage in agriculture or gardening. It monitors soil moisture levels and weather conditions (optional) to irrigate only when necessary.</p>
+            <p class="tools-used"><strong>Tools Used:</strong> Arduino/ESP32, Soil Moisture Sensors, C++, Possibly Blynk/MQTT</p>
+        </div>
+    </div>
+
+    <div id="modal-custom-ai" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" data-modal-close>×</span>
+            <div class="modal-image" data-placeholder-text="KGs1 Beta AI Placeholder"></div>
+            <h3>KGs1 Beta AI</h3>
+            <p>An ongoing exploration into artificial intelligence. KGs1 Beta is likely a custom framework or assistant being developed, focusing on [mention specific AI area if known, e.g., natural language processing, task automation].</p>
+            <p class="tools-used"><strong>Tools Used:</strong> Python, AI/ML Libraries (e.g., TensorFlow, PyTorch)</p>
+        </div>
+    </div>
+
+    <div id="modal-award" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" data-modal-close>×</span>
+            <div class="modal-image" data-placeholder-text="Award Photo Placeholder"></div>
+            <h3>National Award Recognition</h3>
+            <p>Honored to receive a national award for [Specific Innovation/Project Name, e.g., the Mission Bot] from the Education Minister, with Prime Minister Sheikh Hasina present. This recognition fuels my passion for creating impactful technology.</p>
+            <p><em>[Optionally add more details about the event or the project that won the award here.]</em></p>
+        </div>
+    </div>
+
+    <div id="modal-mission-press" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" data-modal-close>×</span>
+            <div class="modal-image" data-placeholder-text="Press Clipping Placeholder"></div>
+            <h3>Mission Bot in the News</h3>
+            <p>The Mission Bot project was featured in [Name of Publication/Media Outlet, e.g., a national newspaper or tech blog]. The coverage highlighted its potential for [mention application area, e.g., assisting in disaster relief simulations].</p>
+             <!-- IMPORTANT: Replace '#' with the actual link if available -->
+            <p><a href="#" target="_blank" rel="noopener noreferrer">[Link to Article/Video if available]</a></p>
+        </div>
+    </div>
+
+
+    <!-- 8. FAQ Chatbot -->
+    <div class="chatbot-container">
+        <div class="chatbot-window" id="chatbot-window">
+            <div class="chatbot-header">KabyaBot Assistant</div>
+            <div class="chatbot-messages" id="chatbot-messages">
+                <div class="chat-message bot-message">Hello! Ask me a question about Kabya. Try 'Who are you?', 'Skills?', 'Projects?', 'Contact?'.</div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="chatbot-input-field" placeholder="Type your question..." aria-label="Chat input">
+                <button id="chatbot-send-btn" aria-label="Send message"></button>
+            </div>
+        </div>
+        <button class="chatbot-toggler" id="chatbot-toggler" aria-label="Toggle chatbot" aria-expanded="false"></button>
+    </div>
+
+
+    <!-- Link to your JavaScript file -->
+    <!-- Place script tag just before closing </body> -->
+    <script src="script.js" defer></script>
+
+</body>
+</html>
